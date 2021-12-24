@@ -1,9 +1,9 @@
-from flask import Flask
+from flask import Flask,request
 app = Flask(__name__)
 
-@app.route('/')
+@app.route("/")
 def index():
-    return '<h1>My Flask1</h1>'
+    return '<h1>Prueba</h1>'
 @app.route("/urlscra", methods=["POST"])
 def urlscra():
     json=request.get_json(force=True)
