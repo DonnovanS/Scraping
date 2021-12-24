@@ -1,0 +1,6 @@
+click==7.1.2
+Flask==1.1.2
+guicorn==20.0.4
+itsdangerous==2.11.2
+MarkupSafe==1.1.1
+wekzeug==1.0.1
