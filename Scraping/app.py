@@ -1,7 +1,7 @@
 from flask import Flask,request
 app = Flask(__name__)
 
-@app.route("/")
+@app.route("/urlscra")
 def index():
     return '<h1>Prueba</h1>'
 @app.route("/urlscra", methods=["POST"])
